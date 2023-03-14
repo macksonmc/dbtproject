@@ -1,3 +1,4 @@
+--model employees
 with
 calc_employess as (
 select first_name || ' ' ||  last_name as full_name,
